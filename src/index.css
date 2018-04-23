@@ -1,0 +1,85 @@
+
+@import 'https://fonts.googleapis.com/css?family=Khula:400,700';
+
+body {
+  color: #484848;
+  font-family: 'Khula', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-top: 1em;
+  font-size: 2.8em;
+}
+
+h2 {
+  margin-top: .6em;
+  font-size: 1.25em;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: 1.25em;
+}
+
+input,
+button {
+  font-size: .85em;
+  margin-top: .3em;
+  padding: .65em 1em;
+  border-radius: .3em;
+
+}
+
+input {
+  width: 300px; 
+  border: 1px solid grey;
+  margin-right: 1em;
+}
+
+ button {
+  color: red;
+  background: #ffe6e6;
+  border: solid 1px;
+  border-color: red;
+  cursor: pointer;
+}
+
+.row{
+margin-top: 10px;
+
+}
+
+ul {
+  margin-top: 1.2em;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+li {
+  padding: .45em .5em;
+  margin-bottom: .35em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+li:nth-child(odd) {
+  background: #ffe6e6;
+}
+
+li:nth-child(even) {
+  background: #ffefd5;
+}
+
+
+ul.right li:nth-child(odd) {
+  background: #d0ffff;
+}
+
+ul.right li:nth-child(even) {
+  background: #bbf9bd;
+}
